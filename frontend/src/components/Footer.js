@@ -3,68 +3,58 @@ import React from 'react'
 const Footer = () => {
     return (
         <div>
-            <p>footer</p>
-            {/**/}
-            <Footer>
-                <div className="container">
+                <div className="container mt-5">
                     <div className="row">
                         <div className="col-12 col-lg-10 mx-auto">
                             <div className="row">
                                 <div className="col-6 col-lg-3">
-                                    <h2>Company</h2>
+                                    <h3>Company</h3>
                                     <ul>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/">Home</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/quiz">Quiz</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/livechat">LiveChat</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/">About</a>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-lg-3">
-                                    <h2>Support</h2>
+                                    <h3>Support</h3>
                                     <ul>
                                         <li>
-                                            <a href="!#">Learning</a>
+                                            <a href="/">Learning</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/">Technology</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/">Science</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/">Professional</a>
                                         </li>
                                     </ul>
                                 </div>
 
                                 <div className="col-6 col-lg-3">
-                                    <h2>Services</h2>
+                                    <h3>Services</h3>
                                     <ul>
                                         <li>
-                                            <a href="!#">About</a>
+                                            <a href="/register">Register</a>
                                         </li>
                                         <li>
-                                            <a href="!#">About</a>
-                                        </li>
-                                        <li>
-                                            <a href="!#">About</a>
-                                        </li>
-                                        <li>
-                                            <a href="!#">About</a>
+                                            <a href="/login">Login</a>
                                         </li>
                                     </ul>
                                 </div>
-
-
+                                
                                 <div className="col-6 col-lg-3">
                                     <h2>Follow Us</h2>
                                     <div className="row">
@@ -93,13 +83,13 @@ const Footer = () => {
                             </div>
 
                             <hr />
-                            <div className="mt-5">
+                            <div className="mt-3">
                                 <p className="para text-center w-100"> Copyright @ 2021. All rights reserved.</p>
                             </div>
                         </div>
                     </div>
                 </div>
-            </Footer>
+           
         </div>
     )
 }

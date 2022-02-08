@@ -1,6 +1,6 @@
 import React from 'react'
 import { Navbar, Nav, Container } from 'react-bootstrap'
-const Header = () => {
+const Header = (props) => {
     return (
         <div>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
@@ -9,9 +9,9 @@ const Header = () => {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="/">Home</Nav.Link>
-            <Nav.Link href="#pricing">Quiz</Nav.Link>
-            <Nav.Link href="#pricing">Live Chat</Nav.Link>
+            <Nav.Link href="/" >Home</Nav.Link>
+            <Nav.Link href="/Quiz">Quiz</Nav.Link>
+            <Nav.Link href="/Livechat">Live Chat</Nav.Link>
             <Nav.Link href="#pricing">Upload Notes</Nav.Link>
             
           </Nav>
