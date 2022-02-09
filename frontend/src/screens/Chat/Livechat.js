@@ -26,7 +26,7 @@ function Livechat() {
   return (
     <div className="Livechat">
       {/* <header> */}
-      <h1>⚛️🔥💬</h1>
+      <h3>⚛️🔥💬</h3>
         <SignOut />
       {/* </header> */}
       <section>

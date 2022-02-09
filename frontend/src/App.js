@@ -10,6 +10,7 @@ import Footer from './components/Footer'
 import Home from './components/Home'
 import Quiz from './components/Quiz'
 import Livechat from './screens/Chat/Livechat.js'
+import Uploadnote from './screens/Notesfeature/Uploadnote';
 
 const App = () => {
   const [isAuth,setIsAuth] = useState(false);
@@ -27,6 +28,7 @@ const App = () => {
         <Route exact path="/" component={() => <Home isAuth={isAuth}/>} /> 
         <Route exact path="/quiz" component={() => <Quiz isAuth={isAuth}/>} /> 
         <Route exact path="/Livechat" component={() => <Livechat isAuth={isAuth}/>} /> 
+        <Route exact path="/Uploadnote" component={() => <Uploadnote isAuth={isAuth}/>} />
         </Switch>
       </div>
     </Router>

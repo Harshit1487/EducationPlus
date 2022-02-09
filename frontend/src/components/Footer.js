@@ -20,6 +20,9 @@ const Footer = () => {
                                             <a href="/livechat">LiveChat</a>
                                         </li>
                                         <li>
+                                            <a href="/uploadnote">Notes</a>
+                                        </li>
+                                        <li>
                                             <a href="/">About</a>
                                         </li>
                                     </ul>
