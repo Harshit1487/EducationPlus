@@ -1,0 +1,28 @@
+.imgclass{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+
+.headclass{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 150px;
+    margin-left: 100px;
+    /* margin: auto; */
+    background-color: blue;
+    width: 500px;
+    height: 200px;
+}
+
+.quizimage{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+    display: inline-flex;
+}

@@ -1,5 +1,10 @@
 import React from 'react'
 
+const foot = {
+    // textColor:"black",
+    color:"white",
+    textDecoration:"none"
+};
 const Footer = () => {
     return (
         <div>
@@ -8,22 +13,22 @@ const Footer = () => {
                         <div className="col-12 col-lg-10 mx-auto">
                             <div className="row">
                                 <div className="col-6 col-lg-3">
-                                    <h3>Company</h3>
-                                    <ul>
+                                    <h3 >Company</h3>
+                                    <ul >
                                         <li>
-                                            <a href="/">Home</a>
+                                            <a style={foot} href="/">Home</a>
                                         </li>
                                         <li>
-                                            <a href="/quiz">Quiz</a>
+                                            <a style={foot}  href="/quiz">Quiz</a>
                                         </li>
                                         <li>
-                                            <a href="/livechat">LiveChat</a>
+                                            <a style={foot}  href="/livechat">LiveChat</a>
                                         </li>
                                         <li>
-                                            <a href="/uploadnote">Notes</a>
+                                            <a style={foot}  href="/uploadnote">Notes</a>
                                         </li>
                                         <li>
-                                            <a href="/">About</a>
+                                            <a style={foot}  href="/">About</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -32,16 +37,16 @@ const Footer = () => {
                                     <h3>Support</h3>
                                     <ul>
                                         <li>
-                                            <a href="/">Learning</a>
+                                            <a style={foot}  href="/">Learning</a>
                                         </li>
                                         <li>
-                                            <a href="/">Technology</a>
+                                            <a style={foot}  href="/">Technology</a>
                                         </li>
                                         <li>
-                                            <a href="/">Science</a>
+                                            <a style={foot}  href="/">Science</a>
                                         </li>
                                         <li>
-                                            <a href="/">Professional</a>
+                                            <a style={foot}  href="/">Professional</a>
                                         </li>
                                     </ul>
                                 </div>
@@ -50,10 +55,10 @@ const Footer = () => {
                                     <h3>Services</h3>
                                     <ul>
                                         <li>
-                                            <a href="/register">Register</a>
+                                            <a style={foot}  href="/register">Register</a>
                                         </li>
                                         <li>
-                                            <a href="/login">Login</a>
+                                            <a style={foot}  href="/login">Login</a>
                                         </li>
                                     </ul>
                                 </div>

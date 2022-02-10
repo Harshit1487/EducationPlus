@@ -31,7 +31,7 @@ const Uploadnote = () => {
 
 	const [searchText, setSearchText] = useState('');
 
-	const [darkMode, setDarkMode] = useState(false);
+	// const [darkMode, setDarkMode] = useState(false);
 
 	useEffect(() => {
 		const savedNotes = JSON.parse(
@@ -67,7 +67,8 @@ const Uploadnote = () => {
 	};
 
 	return (
-		<div className={`${darkMode && 'dark-mode'}`}>
+		// className={`${darkMode && 'dark-mode'}`}
+		<div >
 			<div className='container'>
 				{/* <Header handleToggleDarkMode={setDarkMode} /> */}
 				<Search handleSearchNote={setSearchText} />

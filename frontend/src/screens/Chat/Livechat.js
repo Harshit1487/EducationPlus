@@ -106,7 +106,7 @@ function ChatMessage(props) {
 
   return (
     <div className={`chatdata ${massageClass}`}>
-      <img src={photoURL}/>
+      <img src={photoURL} alt="User pic"/>
       <p>{text}</p>
     </div>
   )
