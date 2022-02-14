@@ -15,8 +15,6 @@ app.use(cors())
 app.use('/app', routesUrls)
 
 
-
-
 //db
 // dbConnect();
 //Basic Routes

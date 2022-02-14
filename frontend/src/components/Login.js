@@ -3,7 +3,7 @@ import { Form, Button } from 'react-bootstrap';
 import axios from "axios"
 
 import { useAlert } from 'react-alert';
-// import { Redirect } from 'react-router-dom';
+import { Redirect } from 'react-router-dom';
 
 const Login = (props) => {
     const [userLogin, setUserLogin] = useState({
@@ -28,6 +28,7 @@ const Login = (props) => {
         try{
             const res = await axios.post("http://localhost:5000/app/login",user)
             alert.show(res.data.message, {type: "success"});
+            if(props.auth === true) return <Redirect to="/"/>
             props.setIsAuth(true);
                
         }
@@ -38,7 +39,7 @@ const Login = (props) => {
         }
         
         setUserLogin({email:"",password:""});
-        // if(props.isAuth === true) return < Redirect to="/"/> 
+        if(props.isAuth === true) return <Redirect to="/"/> 
     }
 
     return (

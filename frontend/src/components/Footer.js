@@ -1,7 +1,6 @@
 import React from 'react'
 
 const foot = {
-    // textColor:"black",
     color:"white",
     textDecoration:"none"
 };
